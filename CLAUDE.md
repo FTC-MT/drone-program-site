@@ -30,12 +30,12 @@ Always preview a change locally and check it at phone width (about 375px) before
 - **Collect no data on the site itself.** No analytics, trackers, cookies, or third-party scripts beyond the Google Fonts already used. The form collects information about minors, so it stays in Google Forms.
 - Keep all links relative (`register.html`, `css/styles.css`) so the site works in any folder or domain.
 - **Keep internal planning details off the site.** The course and contest design document is internal. Never publish its purposes, team member names, judges, budget, success criteria, task assignments, competitor notes, or the reception venue.
-- Keep the established facts and tone: free; for high school students in grades 10–12 and first- and second-year college students; five 2-hour sessions (one or two in person, the rest online) preparing for the FAA Part 107 test; a contest with three challenges (speed delivery, precision corridor, endurance loop), three tries each, best score counts; scholarships for the top three; a drone lab tour and celebration reception for everyone; no experience needed. Current slogans:
-  - "Free drone training. Real skills. Big rewards!"
+- Keep the established facts and tone: $300 course fee; for high school students in grades 10–12 and first- and second-year college students; five 2-hour sessions (one or two in person, the rest online) preparing for the FAA Part 107 test; a contest with three challenges (speed delivery, precision corridor, endurance loop), three tries each, best score counts; scholarships for the top three (1st: full scholarship, 2nd: $9,000/year tuition, 3rd: $5,000/year tuition); a drone lab tour and celebration reception for everyone; no experience needed. Current slogans:
+  - "Drone training. Real skills. Big rewards!"
   - "No experience needed, just bring your ambition."
   - "Your future takes flight!"
 
 ## Still to fill in
 - `[Building and room]` in the details boxes on `index.html` and `course.html`.
-- Exact course dates (currently "March 2027, exact dates to be announced") and confirming the tentative contest date, Saturday, March 20, 2027.
+- Confirming the tentative dates: course March 15–29, 2027, contest Saturday, March 20, 2027.
 - Contest rules and scoring for each challenge.
