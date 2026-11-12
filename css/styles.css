@@ -112,6 +112,58 @@ h2 {
 .step { background: var(--navy-3); border-radius: 12px; padding: 20px; }
 .step-head { display: flex; align-items: center; gap: 10px; font-weight: 700; margin-bottom: 6px; }
 .step p { margin: 0; color: #C3D4EC; font-size: 15px; }
+.step-accent { background: transparent; border: 2px solid var(--orange-light); }
+.section-actions { margin: 24px 0 0; }
+
+/* Contest */
+.challenges {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 24px;
+}
+.challenge { background: var(--navy-3); border-radius: 12px; padding: 20px; }
+.challenge h3 { margin: 0 0 6px; font-size: 18px; }
+.challenge p { margin: 0; color: #C3D4EC; font-size: 15px; }
+.challenge-art { display: block; width: 100%; height: auto; margin-bottom: 12px; }
+.prize-line { margin: 20px 0 0; color: var(--text-soft); max-width: 760px; }
+.prize-line strong { color: var(--orange-light); }
+.prizes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-bottom: 20px; }
+.prize { background: var(--navy-3); border-radius: 12px; padding: 20px; }
+.prize-first { background: var(--orange); color: var(--ink); }
+.prize-place {
+  font-family: var(--font-display); font-weight: 800; text-transform: uppercase;
+  letter-spacing: 1px; font-size: 26px; line-height: 1; margin: 0 0 8px;
+}
+.prize-award { margin: 0; font-weight: 600; }
+
+/* Course page */
+.page-intro { padding-bottom: 32px; }
+.page-title {
+  font-family: var(--font-display); font-weight: 800; text-transform: uppercase;
+  letter-spacing: 1px; font-size: clamp(40px, 7vw, 64px); line-height: 1; margin: 0 0 16px;
+}
+section.tight { padding-top: 0; }
+.jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.jump a {
+  color: var(--white); text-decoration: none; font-weight: 600; font-size: 15px;
+  border: 2px solid var(--blue); border-radius: 40px; padding: 8px 16px;
+}
+.jump a:hover { background: var(--navy-3); color: var(--white); }
+.sessions { list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 14px; }
+.session { background: var(--navy-3); border-radius: 12px; padding: 20px 24px; }
+.session-num {
+  margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--blue-light);
+}
+.session h3 { margin: 2px 0 8px; font-size: 20px; }
+.session ul { margin: 0; padding-left: 20px; color: #C3D4EC; }
+.session li { margin-bottom: 4px; }
+.note {
+  background: var(--navy-2); border-left: 6px solid var(--orange); border-radius: 12px; padding: 24px 28px;
+}
+.note h2 { font-size: clamp(24px, 3.5vw, 32px); margin-bottom: 10px; }
+.note p { margin: 0 0 10px; color: var(--text-soft); }
+.note ul { margin: 0; padding-left: 20px; color: var(--text-soft); }
+.btn-dark { background: var(--ink); color: var(--white); }
+.btn-dark:hover { background: var(--navy-3); color: var(--white); }
 
 .lab {
   background: var(--blue); color: var(--ink); border-radius: 16px; padding: 32px;
@@ -155,6 +207,7 @@ h2 {
   .hero-art { max-width: 320px; margin: 0 auto; }
   .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .audience { grid-template-columns: 1fr; }
+  .challenges, .prizes { grid-template-columns: 1fr; }
   .lab { flex-direction: column; padding: 24px; }
 }
 @media (max-width: 520px) {

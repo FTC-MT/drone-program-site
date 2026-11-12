@@ -4,6 +4,7 @@ Plain static HTML and CSS, with no build step and no dependencies.
 
 ## Files
 - `index.html` is the program page: pitch, who it's for, the six-session curriculum, the drone lab, and the details.
+- `course.html` is the full course and contest page: sessions, the FAA Part 107 test, the three challenges, and prizes.
 - `register.html` is the sign-up page, with a spot for the embedded Google Form.
 - `css/styles.css` holds all the styles. To match the main college site, change the colors and fonts at the top under `:root`.
 - `images/drone-ball.svg` is the hero illustration.
