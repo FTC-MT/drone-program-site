@@ -29,7 +29,12 @@ Always preview a change locally and check it at phone width (about 375px) before
   - The embed in `register.html` uses the full `docs.google.com/forms/d/e/.../viewform?embedded=true` URL. A `forms.gle` link can't be embedded. Only change it if the form itself is replaced.
 - **Collect no data on the site itself.** No analytics, trackers, cookies, or third-party scripts beyond the Google Fonts already used. The form collects information about minors, so it stays in Google Forms.
 - Keep all links relative (`register.html`, `css/styles.css`) so the site works in any folder or domain.
-- **Keep internal planning details off the site.** The course and contest design document is internal. Never publish its purposes, team member names, judges, budget, success criteria, task assignments, competitor notes, or the reception venue.
+- **Keep internal planning details off the site.** The course and contest design document is internal. Never publish, on any page, in the README, or in commit messages and pull request descriptions (the repo is public):
+  - the program's purposes or recruiting goals,
+  - any team member's name or role: instructors, judges, project management, technical support,
+  - internal operations: applicant services and admissions handling, the task table and assignments, the promotion plan, operational considerations such as insurance and airspace permits,
+  - budget, success criteria, and surveys,
+  - competitor notes and the reception venue.
 - Keep the established facts and tone: $300 course fee; for high school students in grades 10–12 and first- and second-year college students; five 2-hour sessions (one or two in person, the rest online) preparing for the FAA Part 107 test; a contest with three challenges (speed delivery, precision corridor, endurance loop), three tries each, best score counts; scholarships for the top three (1st: full scholarship, 2nd: $9,000/year tuition, 3rd: $5,000/year tuition); a drone lab tour and celebration reception for everyone; no experience needed. Current slogans:
   - "Drone training. Real skills. Big rewards!"
   - "No experience needed, just bring your ambition."
