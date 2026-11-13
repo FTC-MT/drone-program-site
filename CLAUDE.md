@@ -1,4 +1,4 @@
-# Take Flight: Fei Tian College drone program site
+# Take Flight: Fei Tian College Northern Campus drone program site
 
 Plain static HTML and CSS. No build step, no dependencies, no JavaScript framework.
 
@@ -23,6 +23,7 @@ Always preview a change locally and check it at phone width (about 375px) before
 - Never force-push to `main` and never try to bypass the review.
 
 ## Rules for content
+- **Always name the campus.** Write "Fei Tian College Northern Campus" (or "the Northern Campus" on second mention), never just "Fei Tian College" or "Fei Tian". The two campuses are different.
 - **No personal contact details.** Do not add anyone's email address, phone number, or home address to any page, the README, or commit messages. People reach the program only through the registration form.
 - **Registration happens only through the Google Form.** Don't add other sign-up methods, mailto links, or contact forms.
   - Form short link: https://forms.gle/bMYaa4MJ99UH4akB8

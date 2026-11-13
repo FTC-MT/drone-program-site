@@ -1,4 +1,4 @@
-# Take Flight: Fei Tian College drone program pages
+# Take Flight: Fei Tian College Northern Campus drone program pages
 
 Plain static HTML and CSS, with no build step and no dependencies.
 

@@ -211,6 +211,8 @@ section.tight { padding-top: 0; }
   .lab { flex-direction: column; padding: 24px; }
 }
 @media (max-width: 520px) {
+  .brand > span { display: block; }
+  .brand .sep { display: none; }
   .steps { grid-template-columns: 1fr; }
   .details { padding: 22px; }
   .details dl { grid-template-columns: 1fr; gap: 2px; }
