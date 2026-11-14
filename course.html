@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Course and Contest: Drone Training | Fei Tian College Northern Campus</title>
-  <meta name="description" content="Full details of Fei Tian College Northern Campus's Take Flight drone course and contest: five sessions of FAA Part 107 test prep, three flying challenges, and scholarships for the top three pilots.">
+  <title>Course Details: Drone Training | Fei Tian College Northern Campus</title>
+  <meta name="description" content="Full details of Fei Tian College Northern Campus's Take Flight drone course: five 2-hour sessions preparing for the FAA Part 107 drone pilot test, followed by a drone skills contest.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -12,30 +12,21 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container">
-    <a class="brand" href="index.html">Fei Tian College Northern Campus <span><span class="sep">· </span>Drone Program</span></a>
-    <nav class="nav" aria-label="Main">
-      <a href="index.html">Program</a>
-      <a href="course.html" aria-current="page">Course &amp; Contest</a>
-      <a href="index.html#lab">Drone Lab</a>
-      <a href="register.html">Register</a>
-    </nav>
-  </div>
-</header>
+<header class="site-header" id="site-header"></header>
+<script src="js/menu.js"></script>
 
 <main>
   <section class="page-intro">
     <div class="container">
       <p class="eyebrow">Take Flight drone training</p>
-      <h1 class="page-title">Course and contest details</h1>
+      <h1 class="page-title">Course details</h1>
       <p class="lead">Five sessions on the science, systems, and rules of drone flight, built around the FAA Part 107 Remote Pilot test. Then a drone contest on campus, with Fei Tian College Northern Campus scholarships for the top three pilots.</p>
       <p class="highlight">No experience needed, just bring your ambition.</p>
       <nav class="jump" aria-label="On this page">
         <a href="#sessions">Sessions</a>
         <a href="#faa">The FAA test</a>
-        <a href="#contest">The contest</a>
-        <a href="#prizes">Prizes</a>
+        <a href="#contest">Contest day</a>
+        <a href="contest.html">Contest rules</a>
       </nav>
     </div>
   </section>
@@ -125,67 +116,11 @@
 
   <section id="contest">
     <div class="container">
-      <h2>The contest</h2>
-      <p class="lead">Put your skills to work in three flying challenges on campus.</p>
-      <ul class="checklist">
-        <li>You fly quadcopters that we provide. No need to bring your own.</li>
-        <li>All challenges take place in a 20 × 20 × 10 ft flight space.</li>
-        <li>Every pilot gets three tries, and the best score counts.</li>
-        <li>Full rules and scoring will be shared before contest day.</li>
-      </ul>
-
-      <div class="challenges">
-        <div class="challenge">
-          <svg class="challenge-art" viewBox="0 0 240 110" role="img" aria-label="A flight path hopping between three landing pads">
-            <path d="M20 95 C 30 20, 70 20, 85 88 C 95 40, 135 40, 145 88 C 155 40, 195 40, 205 88" fill="none" stroke="#3BA7FF" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/>
-            <ellipse cx="85" cy="92" rx="18" ry="5" fill="#FF9A45"/>
-            <ellipse cx="145" cy="92" rx="18" ry="5" fill="#FF9A45"/>
-            <ellipse cx="205" cy="92" rx="18" ry="5" fill="#FF9A45"/>
-            <circle cx="20" cy="95" r="6" fill="#FFFFFF"/>
-          </svg>
-          <h3>A. Speed delivery</h3>
-          <p>A minimum-time delivery run. Fly the route as fast as you can, touching down on each landing pad along the way.</p>
-        </div>
-        <div class="challenge">
-          <svg class="challenge-art" viewBox="0 0 240 110" role="img" aria-label="A flight path passing through a hoop">
-            <path d="M15 70 C 45 70, 50 45, 80 50 S 110 62, 122 60 S 170 50, 190 62 S 215 72, 228 72" fill="none" stroke="#3BA7FF" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/>
-            <ellipse cx="122" cy="58" rx="14" ry="30" fill="none" stroke="#FF9A45" stroke-width="5"/>
-            <circle cx="15" cy="70" r="6" fill="#FFFFFF"/>
-          </svg>
-          <h3>B. Precision corridor</h3>
-          <p>Fly through a specified corridor, including a hoop, with skill and control.</p>
-        </div>
-        <div class="challenge">
-          <svg class="challenge-art" viewBox="0 0 240 110" role="img" aria-label="A repeating loop flown inside a box-shaped flight space">
-            <path d="M40 22 H200 L225 40 V100 H15 V40 Z M15 40 H225" fill="none" stroke="#5B79A8" stroke-width="2" stroke-linejoin="round"/>
-            <ellipse cx="120" cy="68" rx="55" ry="20" fill="none" stroke="#3BA7FF" stroke-width="3" stroke-dasharray="6 6" transform="rotate(-12 120 68)"/>
-            <circle cx="172" cy="56" r="6" fill="#FFFFFF"/>
-          </svg>
-          <h3>C. Endurance loop</h3>
-          <p>A dynamic, repeating flight pattern. Keep your drone flying the loop for as long as you can.</p>
-        </div>
+      <div class="details">
+        <h2>Then: contest day</h2>
+        <p>Put your skills to work in three events in our indoor flight enclosure: Precision Delivery and Landing, Obstacle Corridor Navigation, and a Drone Soccer Skills Challenge. The top three overall scores win Fei Tian College Northern Campus scholarships, including a full scholarship for first place overall.</p>
+        <a class="btn" href="contest.html">Contest rules and scoring</a>
       </div>
-    </div>
-  </section>
-
-  <section id="prizes">
-    <div class="container">
-      <h2>Prizes</h2>
-      <div class="prizes">
-        <div class="prize prize-first">
-          <p class="prize-place">1st place</p>
-          <p class="prize-award">Full scholarship to Fei Tian College Northern Campus</p>
-        </div>
-        <div class="prize">
-          <p class="prize-place">2nd place</p>
-          <p class="prize-award">$9,000 a year tuition scholarship to Fei Tian College Northern Campus</p>
-        </div>
-        <div class="prize">
-          <p class="prize-place">3rd place</p>
-          <p class="prize-award">$5,000 a year tuition scholarship to Fei Tian College Northern Campus</p>
-        </div>
-      </div>
-      <p class="highlight">Every participant is invited to a celebration reception after the contest, and gets a tour of our drone research lab.</p>
     </div>
   </section>
 
