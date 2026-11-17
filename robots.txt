@@ -1,0 +1,13 @@
+# Ask all search engines and crawlers not to index this site for now:
+# the content is not final yet. Every page also carries a
+# <meta name="robots" content="noindex, nofollow"> tag.
+#
+# Note: crawlers only read robots.txt at the root of a domain. While the site
+# is served from ftc-mt.github.io/drone-program-site/ this file is not read;
+# the meta tags do the work. It takes effect once the site has its own domain
+# (for example drone.feitian.org).
+#
+# When the content is final: delete the "Disallow: /" line below and remove
+# the robots meta tag from every page.
+User-agent: *
+Disallow: /

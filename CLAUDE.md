@@ -41,7 +41,7 @@ Always preview a change locally and check it at phone width (about 375px) before
   - contest-day logistics: the event schedule and timing estimates, expected number of pilots, and the staff pre-event verification checklist,
   - competitor notes and the reception venue.
 - Keep the established facts and tone: $300 course fee; for high school students in grades 10–12 and first- and second-year college students; five 2-hour sessions (one or two in person, the rest online) preparing for the FAA Part 107 test; a contest with three events (A. Precision Delivery and Landing, B. Obstacle Corridor Navigation, C. Drone Soccer Skills Challenge), each scored out of 100, two official attempts per event, best valid score counts, overall score is the average of the three; contest rules are drafts and provisional until safety testing; scholarships for the top three overall (1st overall, the Overall Champion: full scholarship; 2nd: $9,000/year tuition; 3rd: $5,000/year tuition); planned event awards named Best Precision Lander (A), Best Navigator (B), Best Drone Soccer Pilot (C), plus Best Rookie Pilot. Never call the event awards "first place," which is reserved for the overall winner; a drone lab tour and celebration reception for everyone; no experience needed. Current slogans:
-  - "Drone training. Real skills. Big rewards!"
+  - "Real skills. Big rewards!"
   - "No experience needed, just bring your ambition."
   - "Your future takes flight!"
 
