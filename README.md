@@ -11,6 +11,7 @@ Plain static HTML and CSS, with no build step and no dependencies.
 - `js/menu.js` holds the header and main menu shared by every page. Change the menu there, not in the pages.
 - `css/styles.css` holds all the styles. To match the main college site, change the colors and fonts at the top under `:root`.
 - `images/drone-ball.svg` is the hero illustration.
+- `robots.txt` and a `noindex` tag on every page ask search engines not to list the site while the content is not final.
 
 ## Preview in VS Code
 Install the **Live Server** extension, right-click `index.html`, and choose **Open with Live Server**.
@@ -18,6 +19,7 @@ Or with Python, from this folder: `python3 -m http.server 8000`, then open http:
 You can also just double-click `index.html` to open it in a browser.
 
 ## Before going live
+1. Let search engines in: delete the `Disallow: /` line in `robots.txt` and the `<meta name="robots" ...>` line from every page.
 1. In `index.html`, fill in the bracketed items: dates, competition day, room, and cost.
 2. Create the Google Form, and under Settings > Responses turn on **Collect email addresses: Verified**.
    That makes people sign in with a Google account, so you get a real Gmail or Google address with every sign-up.
