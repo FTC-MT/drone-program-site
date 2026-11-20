@@ -4,7 +4,7 @@ Plain static HTML and CSS, with no build step and no dependencies.
 
 ## Files
 - `index.html` is the program page: pitch, who it's for, the six-session curriculum, the drone lab, and the details.
-- `course.html` is the full course page: sessions and the FAA Part 107 test.
+- `course.html` is the full course page: sessions and the FAA Recreational UAS Safety Test (TRUST).
 - `contest.html` is the contest rules page: the three events, scoring, prizes, and safety.
 - `lab.html` is the drone lab page: the tour, the lab's work, and internships.
 - `register.html` is the sign-up page, with a spot for the embedded Google Form.

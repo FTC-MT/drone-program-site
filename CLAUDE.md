@@ -4,7 +4,7 @@ Plain static HTML and CSS. No build step, no dependencies, no JavaScript framewo
 
 ## Files
 - `index.html`: the program page, a summary: hero, who it's for, the course at a glance, the contest at a glance, drone lab, course details.
-- `course.html`: the full course page: session-by-session topics, the FAA Part 107 test, and a short pointer to the contest.
+- `course.html`: the full course page: session-by-session topics, the FAA Recreational UAS Safety Test (TRUST), and a short pointer to the contest.
 - `contest.html`: the contest rules page: the three events with diagrams, requirements and scoring, overall scoring, prizes, safety.
 - `lab.html`: the drone lab page: the tour, flight simulation and software work, internships. Kept short for now and meant to grow.
 - `register.html`: the registration page. It embeds the Google Form in an iframe.
@@ -40,7 +40,7 @@ Always preview a change locally and check it at phone width (about 375px) before
   - budget, success criteria, and surveys,
   - contest-day logistics: the event schedule and timing estimates, expected number of pilots, and the staff pre-event verification checklist,
   - competitor notes and the reception venue.
-- Keep the established facts and tone: $300 course fee; for high school students in grades 10–12 and first- and second-year college students; five 2-hour sessions (one or two in person, the rest online) preparing for the FAA Part 107 test; a contest with three events (A. Precision Delivery and Landing, B. Obstacle Corridor Navigation, C. Drone Soccer Skills Challenge), each scored out of 100, two official attempts per event, best valid score counts, overall score is the average of the three; contest rules are drafts and provisional until safety testing; scholarships for the top three overall (1st overall, the Overall Champion: full scholarship; 2nd: $9,000/year tuition; 3rd: $5,000/year tuition); planned event awards named Best Precision Lander (A), Best Navigator (B), Best Drone Soccer Pilot (C), plus Best Rookie Pilot. Never call the event awards "first place," which is reserved for the overall winner; a drone lab tour and celebration reception for everyone; no experience needed. Current slogans:
+- Keep the established facts and tone: $300 course fee; for high school students in grades 10–12 and first- and second-year college students; five 2-hour sessions (one or two in person, the rest online) preparing for the FAA Recreational UAS Safety Test (TRUST), the certificate for recreational drone pilots (Part 107 is not part of the course this round); a contest with three events (A. Precision Delivery and Landing, B. Obstacle Corridor Navigation, C. Drone Soccer Skills Challenge), each scored out of 100, two official attempts per event, best valid score counts, overall score is the average of the three; contest rules are drafts and provisional until safety testing; scholarships for the top three overall (1st overall, the Overall Champion: full scholarship; 2nd: $9,000/year tuition; 3rd: $5,000/year tuition); planned event awards named Best Precision Lander (A), Best Navigator (B), Best Drone Soccer Pilot (C), plus Best Rookie Pilot. Never call the event awards "first place," which is reserved for the overall winner; a drone lab tour and celebration reception for everyone; no experience needed. Current slogans:
   - "Real skills. Big rewards!"
   - "No experience needed, just bring your ambition."
   - "Your future takes flight!"
